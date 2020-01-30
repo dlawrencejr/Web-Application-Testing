@@ -1,0 +1,80 @@
+
+.scoreboard {
+  width: 58%;
+  margin: 20px auto;
+  background-color: blue;
+  color: white;
+  border-radius: 0.5rem;
+
+  padding: 5rem;
+  border: 4px solid #aaaaaa;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+
+}
+.counter{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+.home,
+.away {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  place-items: center;
+  border: 3px solid white;
+  border-radius: 0.5rem;
+  width: 15rem;
+}
+
+.home {
+  background-color: slategray;
+}
+
+.away {
+  background-color: darkred;
+}
+
+.home__name,
+.away__name
+{
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.home__score,
+.away__score {
+  font-family: "Ozone";
+  font-size: 7rem;
+  width: 90%;
+  text-align: center;
+  background-color: var(--black);
+  color: var(--red);
+  padding: 5%;
+}
+.buttons {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeButtons__ball,
+.homeButtons__strike,
+.awayButtons__ball,
+.awayButtons__strike,
+.hits {
+  margin: 1rem;
+  font-size: 2rem;
+  border-radius: 4px;
+  background-color: slategray;
+  border-color: red;
+  color:blue;
+}
